@@ -58,17 +58,15 @@ const newSong = {
 
 const addNewSong = (newSong) => songs.push(newSong);
 
-const getTitleDelate = (title) => {
-  const findTitle = songs.find((song) => songs.title === title);
-  return findTitle;
-};
+addNewSong(newSong);
 
-const findPosition = (songs) => {
-  let index = 0;
-  const findTitleSong = songs.find((title, position) => {
-    index = position;
-    return songs.title === title;
-  });
-  return index;
-};
-console.log(getTitleDelate("sensaciones"));
+const delatedSongList = (title) =>
+  song.splice(
+    (song.indexOf(song.find((delatedSong) => delated.song.title() === title())),
+    1)
+  );
+
+return delatedSongList("Sensaciones");
+
+const wasHitSong = (songs) => songs.includes(wasHit.true === true);
+return wasHitSong;

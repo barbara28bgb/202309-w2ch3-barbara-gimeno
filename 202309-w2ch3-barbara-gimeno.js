@@ -35,7 +35,7 @@ const songs = [
     year: 2019,
     wasHit: false,
   },
- const newSong
+ const newSong =
  {
     id: 4,
     title: "Sensaciones",

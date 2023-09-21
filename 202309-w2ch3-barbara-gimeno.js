@@ -55,18 +55,38 @@ const newSong = {
   year: 2018,
   wasHit: false,
 };
-
+//primera funcion
 const addNewSong = (newSong) => songs.push(newSong);
 
 addNewSong(newSong);
 
+//segunda cancion
 const delatedSongList = (title) =>
   song.splice(
-    (song.indexOf(song.find((delatedSong) => delated.song.title() === title())),
+    (song.indexOf(
+      song.find(
+        (delatedSong) =>
+          delated.song.title.toLowerCase() === title.toLowerCase()
+      )
+    ),
     1)
   );
 
 return delatedSongList("Sensaciones");
 
+//tercera fucnion
+const getFullSong = (title) =>
+song.find((song) => song.title.toLowerCase () === title.toLowerCase());
+getFullSong("sensaciones");
+
+//cuarta funcion 
+
+const getGenreSong = (songs, genre)
+=> songs.filtre ((song) => song.genre () === genre());
+
+getGenreSong(song,title);
+
+
+//Quinta funcion
 const wasHitSong = (songs) => songs.includes(wasHit.true === true);
 return wasHitSong;
